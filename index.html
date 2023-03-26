@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            TWITTER
+        </div>
+        <div class="menu">
+            <div><a href="#">Tweets</a></div>
+            <div><a href="#" onclick="signIn()" id="loginLink">Login</a></div>
+            <div><a href="index.html" id="registerLink">Register</a></div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="center-main" id="center">
+            <div class="info">
+                <div>
+                    EMAIL:
+                </div>
+                <div>
+                    <input type="text" class="inputs" id="email">
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    PASSWORD:
+                </div>
+                <div>
+                    <input type="text" class="inputs" id="password">
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    FULL NAME:
+                </div>
+                <div>
+                    <input type="text" class="inputs" id="fullname">
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    COUNTRY:
+                </div>
+                <div>
+                    <select class="inputs" id="country">
+                        <option value="Kazakhstan">Kazakhstan</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Kyrgyzstan">Kyrgyzstan</option>
+                        <option value="Armenia">Armenia</option>
+                        <option value="USA">USA</option>
+                    </select>
+                </div>
+            </div>
+            <div class="info">
+                <div>
+                    BIRTHDAY:
+                </div>
+                <div>
+                    <input type="date" id="birthday" class="inputs">
+                </div>
+            </div>
+            <div class="info">
+                <button class="buttonRegister" onclick="newAcc()">REGISTER</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
